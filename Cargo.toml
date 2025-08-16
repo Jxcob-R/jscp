@@ -1,0 +1,17 @@
+[package]
+name = "jscp"
+version = "0.1.0"
+edition = "2024"
+description = "Convenient SCP file transfer tool for CLI"
+license = "GPL-v3"
+repository = "https://github.com/Jxcob-R/jscp"
+
+[lib]
+name = "jscp_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "jscp"
+path = "src/main.rs"
+
+[dependencies]
